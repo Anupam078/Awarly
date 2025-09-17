@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App.jsx';
 import RoleSelection from './components/RoleSelection.jsx';
 import Dashboard from './components/Dashboard.jsx';
-import ModuleView from './components/ModuleView.jsx'; // 1. Import the new component
+import ModuleView from './components/ModuleView.jsx';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         path: "/dashboard",
         element: <Dashboard />,
       },
-      { // 2. Add the new route for our module view page
+      { 
         path: "/module/:moduleId",
         element: <ModuleView />,
       },
