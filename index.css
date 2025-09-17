@@ -53,7 +53,7 @@ body {
   cursor: not-allowed;
 }
 
-/* Dashboard Styling */
+
 .dashboard-container {
   width: 90%;
   max-width: 1200px;
@@ -109,7 +109,6 @@ body {
   float: right;
 }
 
-/* Module View Styling */
 .module-view-container {
   background-color: white;
   padding: 40px;
@@ -126,7 +125,7 @@ body {
   padding: 20px;
   margin: 20px 0;
   text-align: left;
-  white-space: pre-wrap; /* Allows text to wrap */
+  white-space: pre-wrap;
   font-family: monospace;
 }
 
